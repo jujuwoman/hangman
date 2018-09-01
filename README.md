@@ -1,6 +1,5 @@
 # Hangman
 
-## Description
 This project uses Django to implement a simple web interface that invites visitors to play the word guessing game of [hangman] (https://en.wikipedia.org/wiki/Hangman_(game)). The interface aspires to a minimalist design so that the player can focus on gameplay.
 
 ## Requirements
@@ -44,6 +43,7 @@ Here are some ideas for extending the program in order of increasing complexity.
 6. Introduce difficulty levels (e.g. for easier levels trim words to stem form, for harder levels include conjugated words)
 7. Modify number of free guesses with respect to difficulty level to accommodate faster style of gameplay
 
+---
 Judy Wang
 jwang@alumnae.smith.edu
 https://www.linkedin.com/in/jujuwoman
