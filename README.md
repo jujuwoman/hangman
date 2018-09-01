@@ -18,7 +18,7 @@ The game was  implemented using Python 3.7, Django 2.1, Pipenv, pip, and pip3 on
 3. Install Pipenv (enter "pip install pipenv").
 4. Navigate to the Hangman directory. Create a virtual environment by entering "pipenv install --dev".
 5. Enter "pipenv shell" to activate the virtual environment.
-6. Enter "python manage.py runserver" ("python3 manage.py runserver" in some machines).
+6. Enter "python manage.py runserver" ("python3 manage.py runserver" on some machines).
 7. If the terminal indicates that the port 8000 is already in use, free the port by entering Control-C. Repeat Step 6.
 
 Visit Django's development server at http://127.0.0.1:8000 in a web browser to play hangman.
