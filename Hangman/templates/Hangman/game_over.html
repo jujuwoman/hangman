@@ -1,0 +1,14 @@
+<!–- page displayed when game is in session -–>
+{% extends 'Hangman/base.html' %}
+{% block content %}
+
+    <!–- game over messages -–>
+    {% if result == 1 %}
+        <h2 class="win">
+    {% else %}
+        <h2 class="loss">
+    {% endif %}
+        {{ message }}
+    </h2>
+
+{% endblock %}

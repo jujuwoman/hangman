@@ -1,0 +1,35 @@
+/* CSS for Hangman */
+
+/* ----------------------------------- */
+.win {
+    color: darkslategray;
+}
+
+.loss {
+    color: crimson;
+}
+
+.input_block {
+    height: 4em;
+}
+
+/* ----------------------------------- */
+body {
+    color: darkslategray;
+    background-color: whitesmoke;
+    font-family: Copperplate;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    height: 1em;
+}
+
+strong {
+    height: 1em;
+}
+
+input {
+   text-align: center;
+}

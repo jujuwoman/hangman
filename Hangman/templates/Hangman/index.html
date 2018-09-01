@@ -1,0 +1,12 @@
+<!–- page displayed when game is initialized -–>
+{% extends 'Hangman/base.html' %}
+{% block content %}
+
+    <!–- form where player enters guess letter -–>
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock %}

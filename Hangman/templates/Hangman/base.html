@@ -1,0 +1,48 @@
+<!–- base layout for Hangman -–>
+{% load i18n %}
+{% load static %}
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="{% static "Hangman/Hangman.css" %}">
+</head>
+
+<body>
+    <!–- game header -–>
+    <h1>Hangman</h1>
+    <img src="{% static "Hangman/Hangman.jpg" %}" height="35%"/>
+    <br><br>
+
+    <!–- answer word and player progress -–>
+    Your word is...
+    <h2>{{ word }}</h2>
+    <h2>{{ progress }}</h2>
+
+    <!–- player input and result -–>
+    <div class="input_block">
+    {% block content %}
+    {% endblock %}
+    </div>
+
+    <!–- list of incorrect guesses -–>
+    Incorrect guesses
+    <br>
+    <strong class="loss">{{ incorrect_guesses }}</strong>
+    <br><br>
+
+    <!–- number of free guesses turns red whenever it is three or less -–>
+    Free guesses remaining
+    <br>
+    {% if free_guesses_remaining > 3 %}
+        <div class="win">
+    {% else %}
+        <div class="loss">
+    {% endif %}
+         <strong>{{ free_guesses_remaining }}</strong>
+    </div>
+    <br><br>
+
+    <!–- reset button -–>
+    <form action="{% url 'index' %}">
+        <input type="submit" value="Reset" />
+    </form>
+</body>
