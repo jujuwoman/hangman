@@ -44,9 +44,9 @@ Here are some ideas for extending the program in order of increasing complexity.
 7. Modify number of free guesses with respect to difficulty level to accommodate faster style of gameplay
 
 ---
-Judy Wang
-jwang@alumnae.smith.edu
-https://www.linkedin.com/in/jujuwoman
-https://github.com/jujuwoman
+Judy Wang  
+jwang@alumnae.smith.edu  
+https://www.linkedin.com/in/jujuwoman  
+https://github.com/jujuwoman  
 
 Last revised: August 31, 2018
