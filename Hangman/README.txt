@@ -9,8 +9,8 @@ The game was  implemented using Python 3.7, Django 2.1, Pipenv, pip, and pip3 on
 > PyCharm Professional 2018.2
 1. Start PyCharm and close any existing projects. Click Open on the Welcome Screen. Open the project folder Hangman.
 2. Set up a virtual environment. Since the project was constructed using Pipenv, it is likely the safest option. If Pipenv is not already available, install by entering "pip install pipenv" in the terminal.
-3. Go to PyCharm | Preferences | Project:Hangman | Project Interpreter. Click on the cog near the top right and choose Add... In the Add Python Interpreter window, choose Pipenv Environment. Make sure the "Install packages from Pipfile" box is checked and click OK. Click OK in the Preferences window.  
-4. In the dropdown menu near the top right in the Navigation Bar (check View | Navigation Bar), select Hangman. Click the triangular Run button to the immediate right.
+3. Go to PyCharm > Preferences > Project:Hangman > Project Interpreter. Click on the cog near the top right and choose Add... In the Add Python Interpreter window, choose Pipenv Environment. Make sure the "Install packages from Pipfile" box is checked and click OK. Click OK in the Preferences window.  
+4. In the dropdown menu near the top right in the Navigation Bar (View > check Navigation Bar), select Hangman. Click the triangular Run button to the immediate right.
 5. If the run console indicates that the port 8000 is already in use, free the port by entering "lsof -i :8000" in the terminal, copy the process ID (PID) associated with port 8000, and enter "kill -9 PID". Repeat Step 4.
 
 > Command line
