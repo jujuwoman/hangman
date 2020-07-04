@@ -45,8 +45,5 @@ Here are some ideas for extending the program in order of increasing complexity.
 
 ---
 Judy Wang  
-jwang@alumnae.smith.edu  
 https://www.linkedin.com/in/jujuwoman  
 https://github.com/jujuwoman  
-
-Last revised: August 31, 2018
